@@ -1,11 +1,11 @@
 import { Avatar } from '@mui/material'
 import React,{forwardRef} from 'react';
-import "./Post.css";
+import "../Post/Post.css";
 import ThumbUpAltIcon from '@mui/icons-material/ThumbUpAlt';
 import CommentIcon from '@mui/icons-material/Comment';
 import ShareIcon from '@mui/icons-material/Share';
 import SendIcon from '@mui/icons-material/Send';
-import InputOption from './InputOption';
+import InputOption from '../InputOption/InputOption';
 
 const Post=forwardRef(({ name, description, message, photoUrl},ref) =>{
   return (

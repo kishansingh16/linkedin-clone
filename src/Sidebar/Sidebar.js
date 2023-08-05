@@ -1,9 +1,9 @@
 import React from 'react';
-import "./Sidebar.css";
-import demon from "./Images/demon.jpg"
+import "../Sidebar/Sidebar.css";
+import demon from "../Images/demon.jpg"
 import { Avatar } from '@mui/material';
 import { useSelector } from 'react-redux';
-import { selectUser } from './features/userSlice';
+import { selectUser } from '../features/userSlice';
 
 function Sidebar() {
     const user=useSelector(selectUser);
